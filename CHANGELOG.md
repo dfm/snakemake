@@ -1,5 +1,18 @@
 # Changelog
 
+## [7.21.0](https://github.com/snakemake/snakemake/compare/v7.20.0...v7.21.0) (2023-01-23)
+
+
+### Features
+
+* ability to encode paramspaces into a single wildcard, via the newly introduced `single_wildcard` argument of `Paramspace`. ([#2069](https://github.com/snakemake/snakemake/issues/2069)) ([728ab3c](https://github.com/snakemake/snakemake/commit/728ab3cf59fb188bf1872a5cab3aba4519340a06))
+
+
+### Bug Fixes
+
+* more robust parsing of sacct output in slurm executor ([#2036](https://github.com/snakemake/snakemake/issues/2036)) ([fe651f8](https://github.com/snakemake/snakemake/commit/fe651f8a10b9ead94b07ab31efe2d560525fc3b6))
+* Postprocess job groups in toposorted order for correct touch times ([#2073](https://github.com/snakemake/snakemake/issues/2073)) ([10b5849](https://github.com/snakemake/snakemake/commit/10b584916a869fa1147a9f42d1de4fec4120b441))
+
 ## [7.20.0](https://github.com/snakemake/snakemake/compare/v7.19.1...v7.20.0) (2023-01-18)
 
 
